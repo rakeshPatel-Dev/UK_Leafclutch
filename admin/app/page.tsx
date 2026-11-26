@@ -2,9 +2,9 @@ export default function Home() {
   return (
     <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#e6eee8] px-6 py-10 font-sans text-[#112a28] sm:px-10">
       <div aria-hidden="true" className="pointer-events-none absolute inset-0">
-        <div className="absolute -left-40 -top-48 h-[32rem] w-[32rem] rounded-full border border-[#c3d5c5]" />
-        <div className="absolute -bottom-56 -right-32 h-[34rem] w-[34rem] rounded-full border border-[#c3d5c5]" />
-        <div className="absolute left-1/2 top-0 h-full w-px bg-[#d3e0d5]" />
+        <div className="absolute -top-48 -left-40 h-[32rem] w-[32rem] rounded-full border border-[#c3d5c5]" />
+        <div className="absolute -right-32 -bottom-56 h-[34rem] w-[34rem] rounded-full border border-[#c3d5c5]" />
+        <div className="absolute top-0 left-1/2 h-full w-px bg-[#d3e0d5]" />
       </div>
 
       <section className="relative w-full max-w-5xl overflow-hidden border border-[#b9cdbd] bg-[#f7f8f2] shadow-[0_24px_80px_rgba(31,67,52,0.12)]">
@@ -39,7 +39,9 @@ export default function Home() {
               </div>
 
               <div className="mt-20">
-                <p className="text-xs font-medium tracking-[0.16em] text-[#a9c2ac]">WORKSPACE STATE</p>
+                <p className="text-xs font-medium tracking-[0.16em] text-[#a9c2ac]">
+                  WORKSPACE STATE
+                </p>
                 <p className="mt-3 max-w-[10rem] text-2xl leading-tight tracking-[-0.04em] text-[#f2f6ed]">
                   Foundation layer
                 </p>
@@ -60,7 +62,9 @@ export default function Home() {
 
           <div className="flex flex-col p-7 sm:p-10 lg:p-14">
             <div className="flex items-center justify-between gap-5 border-b border-[#d6dfd3] pb-5">
-              <p className="text-xs font-medium tracking-[0.12em] text-[#65806d]">ADMIN WORKSPACE / 001</p>
+              <p className="text-xs font-medium tracking-[0.12em] text-[#65806d]">
+                ADMIN WORKSPACE / 001
+              </p>
               <div className="flex items-center gap-2 text-xs font-medium text-[#65806d]">
                 <span className="h-2 w-2 rounded-full bg-[#a8d85f]" />
                 Coming soon
@@ -68,12 +72,15 @@ export default function Home() {
             </div>
 
             <div className="flex flex-1 flex-col justify-center py-16 sm:py-20">
-              <p className="max-w-md text-sm leading-6 text-[#65806d]">A clear space for what comes next.</p>
-              <h1 className="mt-5 max-w-2xl text-5xl font-medium leading-[0.98] tracking-[-0.07em] text-[#163a35] sm:text-7xl">
+              <p className="max-w-md text-sm leading-6 text-[#65806d]">
+                A clear space for what comes next.
+              </p>
+              <h1 className="mt-5 max-w-2xl text-5xl leading-[0.98] font-medium tracking-[-0.07em] text-[#163a35] sm:text-7xl">
                 Admin panel will be built here.
               </h1>
               <p className="mt-7 max-w-md text-base leading-7 text-[#587064]">
-                This workspace is ready for the tools, content, and decisions that keep Leafclutch moving.
+                This workspace is ready for the tools, content, and decisions that keep Leafclutch
+                moving.
               </p>
             </div>
 
@@ -85,5 +92,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  );
+  )
 }
